@@ -1,19 +1,20 @@
 ## Week 3 Challenge 1: User Account Management 
 
 In this challenge, you will create a bash script that provides options for managing user accounts on the system. The script should allow users to perform various user account-related tasks based on command-line arguments.
-
+done
 ### Part 1: Account Creation
 
 1. Implement an option `-c` or `--create` that allows the script to create a new user account. The script should prompt the user to enter the new username and password.
+done also added to my github
 
 2. Ensure that the script checks whether the username is available before creating the account. If the username already exists, display an appropriate message and exit gracefully.
-
+chechk if user exists added.in shell-scripting-practice
 3. After creating the account, display a success message with the newly created username.
 
 ### Part 2: Account Deletion
 
 1. Implement an option `-d` or `--delete` that allows the script to delete an existing user account. The script should prompt the user to enter the username of the account to be deleted.
-
+done 
 2. Ensure that the script checks whether the username exists before attempting to delete the account. If the username does not exist, display an appropriate message and exit gracefully.
 
 3. After successfully deleting the account, display a confirmation message with the deleted username.
